@@ -63,4 +63,4 @@ else:
         with open(metrics_path, "w") as f:
             f.write(str(new_mae))
     else:
-        raise Exception("Model is worse ❌")
+        print("Model is worse ❌ - Not updating model")
